@@ -1,0 +1,25 @@
+{
+  "name": "tiktok-lambda",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "serverless deploy",
+    "local": "serverless offline"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^131.0.0",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "form-data": "^4.0.4",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2",
+    "puppeteer-core": "^23.0.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "serverless": "^3.38.0",
+    "serverless-offline": "^13.3.0"
+  }
+}
